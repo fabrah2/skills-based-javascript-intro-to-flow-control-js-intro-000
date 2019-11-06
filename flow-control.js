@@ -7,7 +7,13 @@ if (age>=13) {if (age <=19) {
 function teenager(age) {
   if (age>=13) {if (age <=19) {
     return "You are a teenager!"
-  }   else {return "You are not a teenager"}}
+  }}
+  if (age<13) {
+    return "You are not a teenager"
+  }
+  if (age>19) {
+    return "You are not a teenager"
+  }
 
 }
 
